@@ -1,0 +1,23 @@
+.row-div {
+    margin: 30px 0px;
+    padding: 05 20px;
+}
+
+.row-container {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+}
+
+.row_container_child {
+    background-color: white;
+    width: 400px;
+    height: 200px;
+    flex-shrink: 0;
+    background-size: cover;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.row-container::-webkit-scrollbar {
+    display: none;
+}

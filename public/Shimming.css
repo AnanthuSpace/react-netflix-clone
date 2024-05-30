@@ -1,0 +1,29 @@
+
+
+/* Shimming style for banner side*/
+
+.poster-shimming {
+    background: linear-gradient(70deg, rgba(0, 0, 0, 1) 0%, rgb(18, 18, 18) 64%, rgba(23, 23, 23, 1) 100%);
+    width: 100%;
+    height: 700px;
+}
+
+/* Shimming style for row movies side*/
+
+.row-shimming {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    margin: 50px 0px;
+}
+
+.row-shimming-child {
+    background: linear-gradient(70deg, rgb(0, 0, 0) 0%, rgb(18, 18, 18) 64%, rgba(23, 23, 23, 1) 100%);
+    width: 400px;
+    height: 200px;
+    flex-shrink: 0;
+}
+
+.row-shimming::-webkit-scrollbar {
+    display: none;
+}
