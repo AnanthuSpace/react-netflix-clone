@@ -4,13 +4,13 @@
 }
 
 .row-container {
-    display: flex;
     gap: 10px;
     overflow-x: auto;
 }
 
 .row_container_child {
-    background-color: white;
+    gap: 1rem;
+    display: flex;
     width: 400px;
     height: 200px;
     flex-shrink: 0;
