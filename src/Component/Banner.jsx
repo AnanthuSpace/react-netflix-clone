@@ -9,7 +9,7 @@ function Banner({ indexOfPoster }) {
 
   useEffect(() => {
     axios.get(`${baseUrl}/${originals}`).then((res) => {
-      console.log(res.data.results[0]);
+      // console.log(res.data.results[0]);
       setMovie(res.data.results[indexOfPoster]);
     });
   });

@@ -19,11 +19,11 @@ function App() {
   return (
     <>
       <NavBar />
-      <Banner indexOfPoster={2} />
+      <Banner indexOfPoster={3} />
       <Row category={originals} catName={"Trending"} />
       <Row category={Anime} catName={"Anime"} />
       <Row category={romance} catName={"Romance"} />
-      <Banner indexOfPoster={16} />
+      <Banner indexOfPoster={1} />
       <Row category={horror} catName={"Horror"} />
       <Row category={action} catName={"Action"} />
       <Row category={animeMovies} catName={"Animations"} />
